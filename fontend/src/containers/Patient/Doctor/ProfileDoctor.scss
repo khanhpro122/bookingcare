@@ -1,0 +1,42 @@
+
+.profile-doctor-container {
+    .intro-doctor {
+        display: flex;
+        .content-left {
+            width: 80px;
+            height: 80px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%;
+        }
+        .content-right {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+            .up {
+                h2 {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+            .down {
+                font-size: 14px;
+            }
+        }
+    }
+    .btn-show-details {
+        cursor: pointer;
+        color: #288ad6;
+        text-decoration: none;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+    .price-clinic {
+        .price {
+            font-weight: bold;
+        }
+    }
+}

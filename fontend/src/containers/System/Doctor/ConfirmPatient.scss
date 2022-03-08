@@ -1,0 +1,33 @@
+.confirm-modal-patient {
+    .modal-header {
+        display: flex;
+        align-items: center;
+        .modal-header-title {
+            color: #1c5e58;
+            font-weight: bold;
+        }
+        .modal-btn-close {
+            border: none;
+            background-color: transparent;
+            padding: 4px;
+            height: 24px;
+            width: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover {
+                background-color: red;
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+    }
+    .file-container {
+        .label-file-patient {
+            cursor: pointer;
+            width: 35%;
+            background-color: #ccc;
+            padding: 4px 2px;
+        }
+    }
+}

@@ -1,0 +1,309 @@
+div._loading_overlay_wrapper {
+  position: unset;
+  ._loading_overlay_overlay {
+    z-index: 10000;
+  }
+}
+._loading_overlay_overlay {
+  background: rgba(0, 0, 0, 0.2) !important;
+  border-radius: 10px !important;
+}
+
+  ._loading_overlay_spinner svg circle {
+  stroke: rgba(0, 135, 196, 0.8) !important;
+  }
+
+.manage-patient-container {
+    .manage-patient-title {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: #1c5e58;
+    }
+    .manage-patient-body {
+        padding: 0px 20px;
+        .manage-patient-table {
+          .patient-title {
+            margin-bottom: 8px;
+            margin-top: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #1c5e58;
+            .btn-show-hide {
+              outline: none;
+              border: none;
+              font-size: 14px;
+              border-radius: 4px;
+              margin-left: 4px;
+              background-color: #f7d800;
+              padding: 2px 10px;
+            }
+            &:hover {
+              opacity: 0.8;
+            }
+          }
+          .btn-export-excel {
+            width: 120px !important;
+            padding: 8px 0;
+            border-radius: 8px;
+            border:none !important;
+            margin-top: 4px !important;
+            margin-bottom: 20px;
+            background-image: linear-gradient(to right, #83d1c4 0%, #63f9a6 51%, #41b982 100%);
+            color: #fff;
+            &:hover {
+              opacity: 0.8;
+            }
+          }
+          .err-data {
+            color: red;
+            font-weight: bold;
+          }
+          .table-manage-patient {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+                tr:first-child {
+                  background-color:#7beac1;
+                  }
+                td, th {
+                  border: 1px solid #dddddd;
+                  text-align: left;
+                  padding: 8px;
+                  text-align: center;
+                }
+                
+                tr:nth-child(even) {
+                  background-color: #dddddd;
+                }
+                button {
+                    border: none;
+                    background-color: transparent;
+                }
+                .btn-confirm {
+                    color: #fff;
+                    background-color: orange;
+                    font-size: 16px;
+                    border-radius: 4px;
+                    padding: 4px;
+                    margin-right: 8px;
+                    &:hover {
+                      opacity: 0.7;
+                    }
+                }
+                .btn-cancle {
+                  color: #fff;
+                  background-color: red;
+                  font-size: 16px;
+                  border-radius: 4px;
+                  padding: 4px;
+                  margin-right: 8px;
+                  &:hover {
+                    opacity: 0.7;
+                  }
+              }
+                .btn-send-bill {
+                  color: #fff;
+                  background-color: blue;
+                  border-radius: 4px;
+                  padding: 4px;
+                  font-size: 16px;
+                  &:hover {
+                    opacity: 0.7;
+                  }
+                }
+            }
+            .loader-patient {
+              margin: 0 auto;
+              border: 6px solid #f3f3f3;
+              border-radius: 50%;
+              border-top: 6px solid #3498db;
+              width: 40px;
+              height: 40px;
+              -webkit-animation: spin 2s linear infinite;
+              animation: spinPatient 2s linear infinite;
+            }
+        }
+        .manage-patient-no-confirm {
+            margin-top: 10px;
+            .btn-export-excel {
+              width: 120px !important;
+              padding: 8px 0;
+              border-radius: 8px;
+              border:none !important;
+              margin-top: 4px !important;
+              margin-bottom: 20px;
+              background-image: linear-gradient(to right, #83d1c4 0%, #63f9a6 51%, #41b982 100%);
+              color: #fff;
+              &:hover {
+                opacity: 0.8;
+              }
+            }
+            .err-data {
+              color: red;
+              font-weight: bold;
+            }
+            .patient-title {
+              margin-bottom: 8px;
+              font-size: 16px;
+              font-weight: bold;
+              color: #1c5e58;
+              .btn-show-hide {
+                outline: none;
+                border: none;
+                font-size: 14px;
+                border-radius: 4px;
+                margin-left: 4px;
+                background-color: #f7d800;
+                padding: 2px 10px;
+              }
+            }
+            .table-manage-patient {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+              tr:first-child {
+                background-color:#7beac1;
+                }
+              td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+                text-align: center;
+              }
+              
+              tr:nth-child(even) {
+                background-color: #f6f6f6;
+              }
+              button {
+                  border: none;
+                  background-color: transparent;
+              }
+              
+              .btn-confirm-no {
+                  color: #fff;
+                  background-color: orange;
+                  font-size: 16px;
+                  border-radius: 4px;
+                  padding: 4px;
+                  margin-right: 8px;
+                  &:hover {
+                    opacity: 0.7;
+                  }
+              }
+              .btn-cancle-no {
+                color: #fff;
+                background-color: red;
+                font-size: 16px;
+                border-radius: 4px;
+                padding: 4px 12px;
+                margin-right: 8px;
+                &:hover {
+                  opacity: 0.7;
+                }
+            }
+              // .btn-send-bill {
+              //   color: #fff;
+              //   background-color: blue;
+              //   border-radius: 4px;
+              //   padding: 4px;
+              //   font-size: 16px;
+              //   &:hover {
+              //     opacity: 0.7;
+              //   }
+              // }
+          }
+        }
+        .manage-patient-finished {
+          margin-top: 10px;
+          .btn-export-excel {
+            width: 120px !important;
+            padding: 8px 0;
+            border-radius: 8px;
+            border:none !important;
+            margin-top: 4px !important;
+            margin-bottom: 20px;
+            background-image: linear-gradient(to right, #83d1c4 0%, #63f9a6 51%, #41b982 100%);
+            color: #fff;
+            &:hover {
+              opacity: 0.8;
+            }
+          }
+          .err-data {
+            color: red;
+            font-weight: bold;
+          }
+          .patient-title {
+            margin-bottom: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #1c5e58;
+            .btn-show-hide {
+              outline: none;
+              border: none;
+              font-size: 14px;
+              border-radius: 4px;
+              margin-left: 4px;
+              background-color: #f7d800;
+              padding: 2px 10px;
+            }
+          }
+          .table-manage-patient {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            tr:first-child {
+              background-color:#7beac1;
+              }
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+              text-align: center;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #f6f6f6;
+            }
+            button {
+                border: none;
+                background-color: transparent;
+            }
+            
+            .btn-confirm-no {
+                color: #fff;
+                background-color: orange;
+                font-size: 16px;
+                border-radius: 4px;
+                padding: 4px;
+                margin-right: 8px;
+                &:hover {
+                  opacity: 0.7;
+                }
+            }
+            .btn-cancle-no {
+              color: #fff;
+              background-color: red;
+              font-size: 16px;
+              border-radius: 4px;
+              padding: 4px 12px;
+              margin-right: 8px;
+              &:hover {
+                opacity: 0.7;
+              }
+          }
+        }
+      }
+    }
+}
+
+
+@-webkit-keyframes spinPatient {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spinPatient {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}

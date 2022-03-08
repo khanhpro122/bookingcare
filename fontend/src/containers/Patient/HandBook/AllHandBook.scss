@@ -1,0 +1,67 @@
+.all-handBook-container {
+    .header-handBook {
+        border-bottom: 1px solid #ccc;
+        box-shadow: 1px 2px 4px #00000080;
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        .all-handBook-header{
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            button {
+                border: none;
+                outline : transparent;
+                padding: 12px 18px;
+                background-color: #fff;
+                .return-home {
+                    font-size: 20px;
+                }
+                &:hover {
+                    background-color: #ccc;
+                }
+            }
+            .name-handBook {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .all-handBook-body {
+        padding: 40px 100px 0;
+        .handBook-item {
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            flex-wrap: wrap;
+            .handBook-name {
+                font-size: 16px;
+                font-weight: bold;
+            }
+            @media (max-width: 1024px) {
+                .handBook-name {
+                    margin-top: 10px;
+                }
+            }
+            .handBook-image {
+                .handBook-img-item {
+                    width: 100%;
+                    height: 100%;
+                }
+                width: 200px;
+                height: 100px;
+                margin-right: 10px;
+            }
+        }
+    }
+    @media (max-width: 1024px) {
+        .all-handBook-body {
+            padding: 40px 40px 0;
+        }
+    }
+}

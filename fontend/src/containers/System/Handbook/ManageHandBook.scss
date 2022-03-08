@@ -1,0 +1,39 @@
+.manage-handbook-container {
+    padding: 0 20px;
+    .title {
+    color: #1c5e58;
+    }
+    .img-preview {
+        height:50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+        width: 30%;
+    }
+    .add-new-handbook {
+
+    }
+    .btn-create-handbook {
+        outline: none;
+        background-color: #237b6d;
+        min-width: 100px;
+        border: none;
+        color: #fff;
+        min-height: 30px;
+        border-radius: 4px;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+    .btn-edit-handbook {
+        outline: none;
+        background-color: #f7d800;
+        min-width: 100px;
+        border: none;
+        min-height: 30px;
+        border-radius: 4px;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+}

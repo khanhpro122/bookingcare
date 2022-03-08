@@ -1,0 +1,35 @@
+.tableManage-specialty {
+    margin-top: 10px;
+    padding: 0 15px 20px;
+    #tableManage-specialty {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        tr:first-child {
+          background-color:#7beac1;
+          }
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #f6f6f6;
+        }
+        button {
+            border: none;
+            background-color: transparent;
+            .btn-edit {
+                color: orange;
+                background-color: transparent;
+                font-size: 26px
+            }
+            .btn-delete {
+              color: red;
+              background-color: transparent;
+              font-size: 26px
+          }
+        }
+    }
+}

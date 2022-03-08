@@ -1,0 +1,103 @@
+.manage-admin-patient-container {
+    padding: 0 20px;
+    .search-container {
+        border: 1px solid #ccc;
+        max-width: 300px;
+        border-radius: 6px;
+        .search-icon {
+            i {
+                padding-left: 4px;
+            }
+        }
+        .admin-patient-search {
+            border-radius: 4px;
+            outline: none;
+            padding: 4px;
+            border: none;
+        }
+    }
+    .manage-admin-patient-title {
+        color: #1c5e58;
+        font-weight: bold;
+        text-align: center;
+        font-size: 22px;
+        margin: 8px 0;
+    }
+    .manage-admin-patient-body {
+        .choose-doctor {
+            margin: 6px 0 10px;
+        }
+        .btn-export-excel {
+            width           : 120px !important;
+            padding         : 8px 0;
+            border-radius   : 8px;
+            border          : none !important;
+            margin-top      : 8px !important;
+            margin-bottom   : 2px;
+            background-image: linear-gradient(to right, #83d1c4 0%, #63f9a6 51%, #41b982 100%);
+            color : #fff;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+        .table-doctor-patient {
+            #table-admin-patient-excel {
+                font-family    : arial, sans-serif;
+                border-collapse: collapse;
+                width          : 100%;
+                .confirmed {
+                    padding: 6px;
+                    border-radius: 4px;
+                    background-color: #237b6d;
+                    color: #fff;
+                    min-width: 110px;
+                }
+                .no-confirm {
+                    padding         : 6px;
+                    border-radius   : 4px;
+                    background-color: #e31818;
+                    color           : #fff;
+                    min-width: 110px;
+                }
+                .finished {
+                    padding         : 6px;
+                    border-radius   : 4px;
+                    background-color: #df9611;
+                    color           : #fff;
+                    min-width       : 110px;
+                }
+                tr:first-child {
+                    background-color: #7beac1;
+                }
+
+                td,
+                th {
+                    border    : 1px solid #dddddd;
+                    text-align: left;
+                    padding   : 8px;
+                }
+
+                tr:nth-child(even) {
+                    background-color: #f6f6f6;
+                }
+
+                button {
+                    border          : none;
+                    background-color: transparent;
+
+                    .btn-edit {
+                        color           : orange;
+                        background-color: transparent;
+                        font-size       : 26px
+                    }
+
+                    .btn-delete {
+                        color           : red;
+                        background-color: transparent;
+                        font-size       : 26px
+                    }
+                }
+            }
+        }
+    }
+}

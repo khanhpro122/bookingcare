@@ -1,0 +1,12 @@
+.fb-like {
+    .fb_edge_widget_with_comment iframe
+    {
+        width:47px !important;
+    }
+
+    /* but make the span that holds the comment box larger */
+    span.fb_edge_comment_widget.fb_iframe_widget iframe
+    {
+        width:401px !important;
+    }
+}

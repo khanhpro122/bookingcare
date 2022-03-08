@@ -1,0 +1,80 @@
+.all-doctor-container {
+    .header-doctor {
+        border-bottom: 1px solid #ccc;
+        box-shadow: 1px 2px 4px #00000080;
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        .all-doctor-header{
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            button {
+                border: none;
+                outline : transparent;
+                padding: 12px 18px;
+                background-color: #fff;
+                .return-home {
+                    font-size: 20px;
+                }
+                &:hover {
+                    background-color: #ccc;
+                }
+            }
+            .name-doctor {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .search-doctor {
+        position: fixed;
+        top     : 0;
+        left    : 0;
+        right   : 0;
+        margin-top: 40px;
+        background-color: #f5f5f5;
+        padding: 20px 20px 8px;
+        z-index: 2;
+        .input-search {
+            border-radius: 6px;
+            width: 100%;
+            border: none;
+            outline: none;
+            border: 1px solid #ccc;
+        }
+    }
+    .all-doctor-body {
+        padding-top: 90px;
+        .title-body-doctor {
+            padding: 8px 15px 0;
+        }
+        .doctor-item {
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            .doctor-name {
+                font-size: 16px;
+                padding-right: 6px;
+            }
+            .doctor-specialty {
+                font-size: 16px;
+                padding-left: 6px;
+                border-left: 1px solid #000;
+            }
+            .doctor-image {
+                width: 80px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                height: 60px;
+                margin-right: 10px;
+            }
+        }
+    }
+}

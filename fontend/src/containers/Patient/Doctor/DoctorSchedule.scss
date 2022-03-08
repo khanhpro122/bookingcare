@@ -1,0 +1,88 @@
+.doctor-schedule-container {
+    .all-schedule {
+        select {
+            border-color: transparent transparent #ccc transparent;
+            cursor: pointer;
+            padding: 8px 0;
+            color: #337ab7;
+            font-weight: 600;
+            outline: none;
+            option {
+                cursor: pointer;
+            }
+        }
+    }
+    .all-available-time {
+        .text-calendar {
+            span {
+                margin: 10px 0;
+                text-transform: uppercase;
+                display: flex;
+                gap: 4px;
+                align-items: center;
+                i {
+                    font-size: 18px;
+                }
+            }
+        }
+        .schedule-content {
+            .time-content {
+                border-right: 1px solid #ddd;
+                display: flex;
+                gap: 15px;
+                flex-wrap: wrap;
+                padding-bottom: 10px;
+                button {
+                    padding: 8px 10px;
+                    background-color: #f7cd2b;
+                    width: fit-content;
+                    border: none;
+                    border-radius: 3px;
+                    &:hover {
+                        background-color: #45c3d2;
+                        color: #fff;
+                    }
+                }
+                .btn-vi {
+                    min-width: 120px;
+                }
+                .btn-en {
+                    min-width: 150px;
+                }
+            }
+            @media (max-width: 566px) {
+                .time-content {
+
+                    border-right: 1px solid transparent;
+                }
+            }
+            .booking-free {
+                margin: 0px 0 16px;
+                cursor: inherit;
+            }
+            .no-schedule {
+                color: red;
+                font-style: italic;
+            }
+        }
+        .loader-schedule {
+            // margin: 0 auto;
+            border: 4px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 4px solid #3498db;
+            width: 30px;
+            height: 30px;
+            -webkit-animation: schedule 2s linear infinite;
+            animation: schedule 2s linear infinite;
+        }
+        @-webkit-keyframes schedule {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+          }
+          
+        @keyframes schedule {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+        }
+    }
+}

@@ -1,0 +1,412 @@
+h1,h2,h3,h4 {
+    font-size: 18px;
+}
+.container-web {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    .container-overlay {
+        background-color: #ccc;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 1000;
+    }
+    .menu-mobile {
+        width: 70%;
+        z-index: 10000;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        .children-content-mobile {
+            color: #45c3d2;
+            padding: 8px 4px;
+            font-size: 30px;
+            border-bottom: 1px solid #ccc;
+            cursor: pointer;
+        }
+    }
+    .section-share {
+        height: 330px;
+        margin-top: 10px;
+        padding-top: 15px;
+        .section-container {
+            display: flex;
+            height: 300px;
+            margin: 0 150px;
+            flex-direction: column;
+            justify-content: space-around;
+            .section-header {
+                height: 60px;
+                display: flex;
+                justify-content: space-between;
+                .section-title {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                .section-btn-more {
+                    outline: none;
+                    border: transparent;
+                    background-color: #ccc;
+                    height: 36px;
+                    width: 80px;
+                    padding: 4px;
+                    &:hover {
+                        background-color: #f7d800;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        @media  (max-width: 1025px) {
+                
+            .section-container {
+                margin: 0 100px;
+            }
+        }
+        @media  (max-width: 877px) {
+                
+            .section-container {
+                margin: 0 80px;
+            }
+        }
+        @media  (max-width: 767px) {
+                
+            .section-container {
+                margin: 0 60px;
+            }
+        }
+        @media  (max-width: 400px) {
+                
+            .section-container {
+                margin: 0 40px;
+            }
+        }
+    
+    }
+}
+.container-web {
+
+    .section-share {
+        &.section-specialty {
+            background-color: #f5f5f5;
+            .section-body {
+                
+            }
+        }
+        &.section-outstading-doctor {
+            background-color: #f5f5f5;
+            text-align: center;
+            .section-container {
+                .section-body {
+                    
+                    .slick-prev{
+                        left: -20px !important;
+                        top: 86px !important;
+                        z-index: 10 !important;
+                        background-color: #45c3d2 !important;
+                    }
+                    .slick-next{
+                        right: -20px !important;
+                        top: 86px !important;
+                        z-index: 10 !important;
+                        background-color: #45c3d2 !important;
+                    }
+                }
+            }
+            .position span:hover {
+                color: #45c3d2;
+            }
+            .out-img {
+                display: flex;
+                justify-content:center;
+                .section-img {
+                    &.section-outstading-doctor {
+                        // border-radius: 50%;
+                        // height: 120px;
+                        // width: 120px;
+                    }
+                }
+            }
+        }
+        &.section-about {
+            background-color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 500px;
+            padding:0 150px;
+            .section-about-header {
+                font-size: 24px;
+                font-weight: bold;
+            }
+            .section-about-content {
+                display: flex;
+                justify-content: space-between;
+                gap: 100px;
+                .section-about-right {
+                    font-size: 20px;
+                }
+            }
+        }
+        @media  (max-width: 1025px) {
+            &.section-about { 
+                padding:0 100px;
+                height: fit-content;
+                .section-about-header {
+                    font-size: 24px;
+                    font-weight: bold;
+                    padding: 20px 0;
+                }
+                .section-about-content {
+                    gap: 60px;
+                    .section-about-right {
+                        font-size: 20px;
+                    }
+                    
+                }
+            }
+        }
+        @media  (max-width: 877px) {
+            &.section-about { 
+                padding:0 60px;
+               
+                .section-about-content {
+                    gap: 60px;
+                    .section-about-right {
+                        font-size: 18px;
+                    }
+                    .section-about-left {
+                        iframe {
+                            width: 400px;
+                            height: 300px;
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 767px) {
+            &.section-about { 
+                padding:0 40px;
+               
+                .section-about-content {
+                    gap: 20px;
+                    .section-about-right {
+                        font-size: 15px;
+                    }
+                    .section-about-left {
+                        iframe {
+                            width: 300px;
+                            height: 200px;
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 600px) {
+            &.section-about { 
+                padding:0 20px;
+               
+                .section-about-content {
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    .section-about-right {
+                        font-size: 15px;
+                    }
+                    .section-about-left {
+                        iframe {
+                            width: auto;
+                            height: auto;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        .section-body {
+            .img-customize {
+                cursor: pointer;
+                padding-left: 10px;
+                .border-customize {
+                    border: 1px solid #ccc;
+                    padding: 5px;
+                }
+                .name-img {
+                    &:hover {
+                        color: #91d4e2;
+                    }
+                }
+                .section-img {
+                    height: 150px;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 100%;
+                    margin-bottom: 6px;
+                    span:hover {
+                        color: #45c3d2;
+                    }
+                    &.section-specialty {
+                        background-image: url("../../assets/images/co-xuong-khop.jpg");
+                    }
+                    &.medical-facility {
+                        background-image: url("../../assets/images/benh-vien-thu-cuc.jpg");
+                    }
+                    &.section-outstading-doctor {
+                        height: 120px;
+                        width: 120px;
+                        border-radius: 50%;
+                    }
+                    &.section-hand-book {
+                        margin-bottom: 0;
+                        background-image: url("../../assets/images/cam-nang.jpg");
+                    }
+                }
+            }
+            &.section-hand-book {
+                .img-customize {
+                    .border-customize {
+                        border: 1px solid #ccc;
+                        display: flex !important;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 20px;
+                        width: 100%;
+                        padding: 0!important;
+                        .position {
+                            padding: 0 20px;
+                            span {
+                                &:hover {
+                                    color: #91d4e2;
+                                }
+                            }
+                        }
+                    }
+                    @media (max-width: 876px) {
+                        .border-customize {
+                            gap: 8px;
+                            .position {
+                                padding:0px;
+                            }
+                            .out-img {
+                            .section-img {
+                                width: 140px;
+                            }
+                        }
+                        }
+                    }
+                    @media (max-width: 600px) and (min-width: 400px){
+                        .border-customize {
+                            gap: 8px;
+
+                            .position {
+                                padding: 0px;
+                            }
+
+                            .out-img {
+                                .section-img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .out-img {
+                        // width: 400px;
+                        flex-basis: 80%;
+                        margin: 0 !important;
+                    }
+                    .name-img {
+                        &:hover {
+                            color: #91d4e2;
+                        }
+                    }
+                }
+                @media (max-width: 376px) {
+                    .img-customize {
+                        .border-customize {
+                            flex-wrap: wrap;
+                            gap: 0;
+                            .out-img {
+                                flex-basis: 1;
+                                .section-img {
+                                    width: 125%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+///reset click clider css
+
+.slick-prev{
+    left: -20px !important;
+    top: 74px !important;
+    z-index: 10 !important;
+    background-color: #45c3d2 !important;
+    border-radius: 50%;
+}
+.slick-next{
+    right: -20px !important;
+    top: 74px !important;
+    z-index: 10 !important;
+    background-color: #45c3d2 !important;
+    border-radius: 50%;
+}
+.slick-slider {
+    height: 100%;
+}
+.slick-prev, .slick-next {
+    height: 40px !important;
+    width: 40px !important;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 40px !important;
+    position: absolute !important;
+    top: 3px !important;
+    left: 0 !important;
+}
+
+.slick-disabled {
+    display: none !important;
+}
+.home-footer {
+    text-align: center;
+    padding-top: 8px;
+    a {
+        text-decoration: none
+    }
+}
+
+
+.loader {
+    margin: 0 auto;
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid #3498db;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+///responsible

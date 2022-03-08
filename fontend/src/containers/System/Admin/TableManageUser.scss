@@ -1,0 +1,50 @@
+#tableManage-user {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    tr:first-child {
+      background-color:#7beac1;
+      }
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f6f6f6;
+    }
+    button {
+        border: none;
+        background-color: transparent;
+        .btn-edit {
+            color: orange;
+            background-color: transparent;
+            font-size: 26px
+        }
+        .btn-delete {
+          color: red;
+          background-color: transparent;
+          font-size: 26px
+      }
+    }
+}
+.search-container {
+  margin: 8px 0;
+  border       : 1px solid #ccc;
+  max-width    : 300px;
+  border-radius: 6px;
+
+  .search-icon {
+    i {
+      padding-left: 4px;
+    }
+  }
+
+  .admin-patient-search {
+    border-radius: 4px;
+    outline      : none;
+    padding      : 4px;
+    border       : none;
+  }
+}

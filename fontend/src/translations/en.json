@@ -1,0 +1,216 @@
+{
+    "homeheader": {
+        "speciality": "Medical specialty",
+        "searchdoctor": "Find a doctor by speacialty",
+        "health-facility" : "Health facilities",
+        "select-room" : "Choose hospital clinical settings",
+        "doctor": "Doctor",
+        "select-doctor": "Choose a good doctor",
+        "fee":"Handbook",
+        "check-headlth":"Handbook packages",
+        "support": "Support",
+        "welcome": "Welcome",
+        "home" : "Home"
+    },
+    "banner": {
+        "title1": "MEDICAL PLATFORM",
+        "title2": "COMPREHENSICE HEALTH CARE",
+        "placeholder": "Search hospital",
+        "child1":"Specialist examination",
+        "child2":"Remote examination",
+        "child3":"General examination",
+        "child4":"Medical test",
+        "child5":"Mental health",
+        "child6":"Dental package"
+    },"details-clinic" : {
+        "see-more" :"See more",
+        "hide" : "Hide"
+    },"details-specialty" : {
+        "see-more" :"See more",
+        "hide" : "Hide"
+    },"footer" : {
+        "name-company" : "BookingCare company",
+        "address" : "28 Thanh Thai, Dich Vong, Cau Giay, Ha Noi",
+        "certification": "ĐKKD no: 0106790291. Department KHĐT Ha Noi grant at 16/03/2015",
+        "center-hanoi" : "Headquarters in Hanoi",
+        "address-hanoi": "28 Thanh Thai, Dich Vong, Cau Giay, Ha Noi",
+        "center-hcm": "Office in Ho Chi Minh City",
+        "address-hcm" : "6/6 Cach Thang Tam, Ben Thanh Ward, District 1",
+        "support" : "Customer support",
+        "support-address" : "support@bookingcare.vn (7h - 18h)"
+    },
+    "menu": {
+        "system": {
+            "header": "System",
+            "system-administrator": {
+                "header": "System Administrator",
+                "user-manage": "User manage",
+                "user-redux": "Redux manage",
+                "register-package-group-or-account": "Register service package for group/account"
+            },
+            "system-parameter": {
+                "header": "System-parameter"
+            }
+        },
+        "admin": {
+            "manage-user":"Manage user",
+            "manage-doctor": "Manage doctor",
+            "manage-admin": "Manage admin",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD redux",
+            "manage-clinic": "Manage clinic",
+            "clinic": "Clinic",
+            "specialty": "Speciality",
+            "manage-specialty": "Manage speciality",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage handbook",
+            "manage-doctor-patient" : "Manage doctor and patient"
+        },
+        "doctor" : {
+            "manage-schedule" : "Manage schedule",
+            "manage-patient": "Manage patient",
+            "push-image" :"Push"
+        },
+        "handbook" : {
+            "manage-handbook" : "Manage hanbook"
+        }
+    },
+    "manage-user": {
+        "add": "Add a new user",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First name",
+        "last-name": "Last name",
+        "phone-number": "Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "male": "Male",
+        "female":"Female",
+        "position": "Position",
+        "image": "Avatar",
+        "role" : "Role",
+        "save": "Add user",
+        "edit": "Update to"
+    },
+    "homePage": {
+        "out-standing-doctor":"Last week's featured doctor",
+        "see-more": "See more",
+        "popular-specialty": "Popular specialty"
+    },
+    "manage-schedule": {
+        "title":"Manage doctor's examination plan",
+        "choose-doctor": "Choose doctor",
+        "choose-day": "Choose day",
+        "save-infor": "Save infor"
+    },
+    "patient":{
+        "details-doctor": {
+            "schedule": "Schedule",
+            "no-schedule": "The doctor does not have an appointment during this time. Please select another time!!!",
+            "choose": "Choose ",
+            "book-free": " and free booking"
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "Create more information's doctor",
+            "choose-doctor": "Choose doctor",
+            "infor": "Introduction:",
+            "add-infor": "Add infor",
+            "edit-infor": "Edit infor",
+            "choose-price": "Choose price",
+            "choose-payment": "Choose a payment method",
+            "choose-province": "Choose province",
+            "name-clinic": "Clinic's name",
+            "address-clinic": "Clinic's address",
+            "note" : "Note",
+            "choose-specialty": "Choose specialty",
+            "choose-clinic": "Choose clinic"
+        },
+        "extra-doctor" :{
+            "address-clinic": "Examination address",
+            "price-clinic": "Examination price: ",
+            "see-details": " See details",
+            "hide": "Hide price list",
+            "content-up": "Get priority medical care before visiting through BookingCare. The cost of medical examination for foreigners is 30 USD",
+            "content-down": "Patients can pay in cash and by swiping a card"
+        },
+        "modal-booking" : {
+            "infor-modal-booking": "Imformation to booking appointment",
+            "fullName" : "Full name",
+            "phoneNumber" : "Phone number",
+            "email" : "Email",
+            "address": "Address",
+            "reason" : "reason for examination",
+            "birthDay": "Day of birth",
+            "gender": "Gender",
+            "agree": "Confirm",
+            "cancel": "Cancel",
+            "choose-gender": "Choose genders",
+            "booking-free": "Booking free",
+            "price": "Price's clinic: ",
+            "firstName" : "First name",
+            "lastName": "Last name"
+        },
+        "manage-clinic": {
+            "choose-clinic": "Select clinic",
+            "manage-clinic" : "Manage clinic",
+            "choose-image-clinic": "Choose image's clinic",
+            "name-clinic" : "Clinic name",
+            "push" : "Push",
+            "address-clinic": "Clinic address",
+            "add" : "Add",
+            "update" : "Update",
+            "actions" : "Actions"
+        },
+        "manage-patient" : {
+            "manage-patient-schedule": "Management of medical examination patients",
+            "choose-day" : "Choose day",
+            "list-patient-no" :"List of unconfirmed patients",
+            "list-patient" :"List of confirmed patients",
+            "list-patient-finished" :"List of completed patients",
+            "no-data": "No data available, please check again",
+            "STT": "Num",
+            "time": "Time",
+            "first-name": "First name",
+            "last-name": "Last name",
+            "gender": "Gender",
+            "birthDate": "Birthday",
+            "phone-number": "Phone",
+            "reason": "Reasons",
+            "address": "Address",
+            "actions" : "Action",
+            "delete" : "Delete",
+            "cancel" : "Cancel",
+            "confirm" : "Confirm",
+            "hide": "Hide",
+            "show" : "Show",
+            "status": "Status",
+            "date-clinic" : "Examination's day",
+            "search" : "Search"
+        },
+        "manage-specialty" : {
+            "manage-specialty" : "Manage specialty",
+            "choose-specialty" : "Choose image's specialty",
+            "name-specialty" : "Specialty's name",
+            "push": "Push",
+            "add" : "Add",
+            "edit" : "Update",
+            "STT": "No",
+            "actions" : "Actions"
+        },
+        "manage-handbook" : {
+            "manage-handbook" : "Manage hanbook",
+            "name-handbook" : "Handbook' name",
+            "name-author" : "Name's author",
+            "name-censor" : "Name's censor",
+            "choose-handbook" : "Choose image's handbook",
+            "push" : "Push",
+            "add" : "Add",
+            "edit": "Update",
+            "author" : "Author",
+            "censor" : "Censor",
+            "actions": "Actions"
+        }
+    }
+}
